@@ -899,6 +899,14 @@ blockquote {
   z-index: 1;
 }
 
+.container-light {
+  position: relative;
+  z-index: 1;
+  border-color: #E3C493;
+  width: 80%;
+  height: auto;
+}
+
 .page-title .bg-shape-1 {
   position: absolute;
   left: 0;
