@@ -44,7 +44,7 @@ p-lg, .paragraph-lg {
 
 .text-style {
   column-count: 3;
-  padding-top: 140px;
+  padding-top: 340px;
   text-align: justify;
 } 
 
@@ -58,6 +58,10 @@ h2, h4, h5, h6, h7 {
   color: #000;
   font-family: "Playfair Display SC", serif;
   line-height: 1.2;
+}
+.container-light h7 {
+  top: 280px;
+  /* font-size: 45px; */
 }
 
 h1, .h1 {
@@ -80,7 +84,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 16px;
-  letter-spacing: 5px;
+  letter-spacing: 5.2px;
 }
 @media (max-width: 991px) {
   h3, .h3 {
@@ -121,7 +125,7 @@ h7, .h7 {
   font-size: 22px;
   font-family: 'bariol';
   text-transform: capitalize;
-  padding: 16px 44px;
+  /* padding: 16px 44px; */
   text-align: center;
   /* border-radius: 5px; */
   font-weight: 600;
@@ -145,6 +149,7 @@ h7, .h7 {
   
   z-index: 1;
   transition: 0.2s ease;
+  
 }
 .btn:focus {
   outline: 0;
@@ -299,7 +304,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #362925 !important;
+  background: #c9ae82 !important;
 }
 
 .bg-gray {
@@ -311,7 +316,7 @@ a:hover {
   /* height: 100px; */
   /* position: relative; */
   position: fixed;
-  background-image: url(../images/baner.jpg);
+  background-image: url(../images/baner_2.jpg);
   background-size: cover;
   background-position: center center;
   /* opacity: 20%; */
@@ -569,12 +574,12 @@ background: rgba(255, 255, 255);
 }
 
 .hero-area {
-  padding: 290px 0 200px;
+  padding: 290px 0 0;
   position: relative;
 }
 @media (max-width: 767px) {
   .hero-area {
-    padding: 200px 0 150px;
+    padding: 200px 0 0;
     overflow: hidden;
   }
 }
@@ -901,10 +906,11 @@ blockquote {
 
 .container-light {
   position: relative;
-  z-index: 1;
-  border-color: #E3C493;
-  width: 80%;
-  height: auto;
+  background-color: #e1dbc7;
+  width: 100%;
+  height: 51rem;
+  margin: 0 auto;
+  top: -12rem;
 }
 
 .page-title .bg-shape-1 {
