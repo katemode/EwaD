@@ -44,7 +44,7 @@ p-lg, .paragraph-lg {
 
 .text-style {
   column-count: 3;
-  padding-top: 340px;
+  padding-top: 120px;
   text-align: justify;
 } 
 
@@ -112,7 +112,7 @@ h7, .h7 {
   /* margin: 0 130px; */
   /* padding: 0 60px; */
   right: -10px;
-  top: 100px;
+  top: 80px;
 }
 @media (max-width: 991px) {
   h7, .h7 {
@@ -169,20 +169,21 @@ h7, .h7 {
 }
 
 .btn-primary {
-  background: #362925;
+  background: #417058;
   color: #fff;
 }
 .btn-primary:active {
-  background: #af955c !important;
+  background: #61a583 !important;
 }
 .btn-primary:hover {
-  background: #af955c;
+  background: #61a583;
 }
 .btn-primary.focus, .btn-primary.active {
-  background: #af955c !important;
+  background: #61a583 !important;
   box-shadow: none !important;
 }
 
+/* więcej */
 .btn-transparent {
   background: transparent;
   color: #af955c;
@@ -198,7 +199,7 @@ body {
 }
 
 ::-moz-selection {
-  background: #af955c;
+  background: #61a583;
   color: #fff;
 }
 
@@ -303,8 +304,9 @@ a:hover {
   display: unset !important;
 }
 
+/* tlo hero-area */
 .bg-primary {
-  background: #c9ae82 !important;
+  background: #ffffff !important;
 }
 
 .bg-gray {
@@ -430,8 +432,9 @@ a:hover {
   text-align: center;
 }
 
+/* ikony */
 .icon-light {
-  color: #c8d5ef;
+  color: #efd9c8;
 }
 
 /* /icon */
@@ -545,7 +548,7 @@ background: rgba(255, 255, 255);
   transition: 0.3s ease;
 }
 .navigation.nav-bg {
-  background-color: #362925;
+  background-color: #274333;
   padding: 15px 100px;
 }
 @media (max-width: 991px) {
@@ -569,6 +572,7 @@ background: rgba(255, 255, 255);
   font-weight: bold;
 }
 
+/* tekst nawigacja */
 .navbar-dark .navbar-nav .nav-link {
   color: #af955c;
 }
@@ -745,7 +749,7 @@ background: rgba(255, 255, 255);
 /* /portfolio */
 /* testimonial */
 .testimonial-content strong {
-  color: #2bfdff;
+  color: #ffc800;
   font-weight: normal;
 }
 
