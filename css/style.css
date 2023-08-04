@@ -44,7 +44,8 @@ p-lg, .paragraph-lg {
 
 .text-style {
   column-count: 3;
-  padding-top: 120px;
+  padding-top: 2%;
+  
   text-align: justify;
 } 
 
@@ -59,10 +60,7 @@ h2, h4, h5, h6, h7 {
   font-family: "Playfair Display SC", serif;
   line-height: 1.2;
 }
-.container-light h7 {
-  top: 280px;
-  /* font-size: 45px; */
-}
+
 
 h1, .h1 {
   font-size: 55px;
@@ -104,7 +102,7 @@ h6, .h6 {
   font-size: 14px;
 }
 
-h7, .h7 {
+.container h7, .h7 {
   font-family: 'bariol';
   text-transform: uppercase;
   color: #af955c;
@@ -112,7 +110,10 @@ h7, .h7 {
   /* margin: 0 130px; */
   /* padding: 0 60px; */
   right: -10px;
-  top: 80px;
+  /* margin-top: auto; */
+  /* top: 100px; */
+  padding-top: 18%;
+  /* top: -70%; */
 }
 @media (max-width: 991px) {
   h7, .h7 {
@@ -591,19 +592,19 @@ background: rgba(255, 255, 255);
 }
 
 .hero-area {
-  padding: 290px 0 0;
+  padding-top: 190px;
   position: relative;
 }
 @media (max-width: 767px) {
   .hero-area {
-    padding: 200px 0 0;
+    padding-top: 200px;
     overflow: hidden;
   }
 }
 .hero-area h1, h3 {
   position: relative;
   z-index: 2;
-  top: -120px;
+  top: -10px;
   left: 60px;
 }
 
@@ -619,8 +620,8 @@ background: rgba(255, 255, 255);
 }
 
 #l2 {
-  top: -80px;
-  left: -270px;
+  top: -90px;
+  left: 30%;
   scale: 0.82;
 }
 
@@ -629,7 +630,7 @@ background: rgba(255, 255, 255);
   z-index: 1;
   bottom: 0;
   left: 0;
-  top: -90px;
+  /* top: -90px; */
 }
 
 /* skills */
