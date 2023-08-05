@@ -621,7 +621,8 @@ background: rgba(255, 255, 255);
 
 #l2 {
   top: -90px;
-  left: 30%;
+  /* left: 30%; */
+  transform: translateX(65%);
   scale: 0.82;
 }
 
