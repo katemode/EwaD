@@ -647,6 +647,11 @@ background: rgba(255, 255, 255);
     transform: translate(-50%, -50%); */
   scale: 0.80;
 }
+#l3 {
+  top: -90px;
+  left: 35%;
+  scale: 0.8;
+}
 /* @media (max-width: 768px) {
   .element {
       padding: 5px;
