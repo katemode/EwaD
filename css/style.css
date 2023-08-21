@@ -88,10 +88,12 @@ h3, .h3 {
     font-size: 11px;
   }
 }
+
+
 @media (max-width: 1920px) {
   .text-style {
     column-count: 3;
-    padding-top: 5%;
+    padding-top: 8%;
       } 
 }
 
@@ -126,11 +128,25 @@ h6, .h6 {
     font-size: 20px;
   }
 }
+/* lady */
 @media (min-width: 1920px) {
   #l3 {
     top: -80px;
-    left: 40%;
+    left: 44%;
     scale: 0.8;
+  }
+}
+/* @media (max-width: 1280px) {
+  #l3 {
+    top: -80px;
+    left: 40%;
+    scale: 0.6;
+  }
+} */
+@media (max-width: 1920px) and (max-height: 980px) {
+  #l3, img {
+    max-width: 100%; /* Obrazek nie będzie większy niż szerokość kontenera */
+    height: auto; /* Proporcjonalne dopasowanie wysokości */
   }
 }
 
@@ -593,15 +609,23 @@ background: rgba(255, 255, 255);
   background-color: #274333;
   padding: 15px 100px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1280px) {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1280px) {
   .navigation {
     padding: 20px;
     background: #274333;
+  }
+}
+@media (max-width: 1280px) {
+  .layer-bg {
+    top: 120px;
+  }
+  #l3, img {
+    top: 130px;
   }
 }
 
