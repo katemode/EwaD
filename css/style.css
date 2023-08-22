@@ -90,10 +90,10 @@ h3, .h3 {
 }
 
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
   .text-style {
     column-count: 3;
-    padding-top: 8%;
+    margin-top: 10%;
       } 
 }
 
@@ -129,7 +129,7 @@ h6, .h6 {
   }
 }
 /* lady */
-@media (min-width: 1920px) {
+@media (min-width: 1919px) {
   #l3 {
     top: -80px;
     left: 60%;
@@ -138,10 +138,10 @@ h6, .h6 {
 }
 @media (max-width: 1280px) {
   .layer-bg {
-    top: 130px;
+    top: 140px;
   }
   #l3 {
-    margin-top: 60px;
+    margin-top: 75px;
   }
 }
 /* @media (max-width: 1280px) {
