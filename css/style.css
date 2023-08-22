@@ -129,8 +129,13 @@ h6, .h6 {
   right: -10px;
   /* margin-top: auto; */
   /* top: 100px; */
-  padding-top: 7%;
+  padding-top: 15%;
   /* top: -70%; */
+}
+@media (max-width: 1320px) {
+  h7, .h7 {
+    /* padding-top: 15%; */
+  }
 }
 @media (max-width: 991px) {
   h7, .h7 {
@@ -145,7 +150,7 @@ h6, .h6 {
     scale: 0.8;
   }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1320px) {
   .layer-bg {
     top: 132px;
   }
@@ -634,12 +639,12 @@ background: rgba(255, 255, 255);
   background-color: #274333;
   padding: 15px 100px;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1320px) {
   .navigation.nav-bg {
     padding: 15px 20px;
   }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1320px) {
   .navigation {
     padding: 20px;
     background: #274333;
