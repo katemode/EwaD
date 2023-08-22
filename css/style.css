@@ -132,6 +132,12 @@ h6, .h6 {
   padding-top: 15%;
   /* top: -70%; */
 }
+@media (min-width: 1919px) {
+  h7, .h7 {
+    /* padding-top: 15%; */
+    padding-top: 15%;
+  }
+}
 @media (max-width: 1320px) {
   h7, .h7 {
     /* padding-top: 15%; */
