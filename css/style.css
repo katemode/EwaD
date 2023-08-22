@@ -89,14 +89,23 @@ h3, .h3 {
   }
 }
 
-
-@media (min-width: 1920px) {
+@media (min-width: 880px) and (max-width: 1920px){
   .text-style {
     column-count: 3;
-    margin-top: 10%;
+    margin-top: 2%;
       } 
 }
-
+@media (max-width: 879px) {
+  .text-style {
+    column-count: 2;
+      } 
+}
+@media (max-width: 580px) {
+  .text-style {
+    column-count: 1;
+    /* margin: 20px; */
+      } 
+}
 
 h4, .h4 {
   font-size: 22px;
@@ -137,6 +146,14 @@ h6, .h6 {
   }
 }
 @media (max-width: 1280px) {
+  .layer-bg {
+    top: 132px;
+  }
+  #l3 {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 991px) {
   .layer-bg {
     top: 140px;
   }
