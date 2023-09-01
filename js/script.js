@@ -77,6 +77,30 @@
         obj.style.left = left - (((mouseX - (parseInt(obj.offsetWidth) / 2 + left)) / containerWidth) * speed) + 'px';
         obj.style.top = top - (((mouseY - (parseInt(obj.offsetHeight) / 2 + top)) / containerHeight) * speed) + 'px';
     }
+
+    // ############################################# zamiana baneru png ############################################
+
+// Pobieramy element <img> za pomocą JavaScript
+const imgElement = document.querySelector('.layer-bg img');
+
+// Funkcja, która zmienia źródło obrazka na "baner_lady2.png" przy szerokości ekranu < 676px
+function changeImage() {
+    if (window.innerWidth < 560) {
+        imgElement.src = "images/baner_lady560.png";
+    } else if (window.innerWidth < 676) {
+        imgElement.src = "images/baner_lady676.png";
+    } else {
+        imgElement.src = "images/baner_lady.png";
+    }
+}
+
+// Wywołujemy funkcję przy ładowaniu strony i zmianie rozmiaru okna
+window.addEventListener('load', changeImage);
+window.addEventListener('resize', changeImage);
+
+
+
+
     /* ########################################### /hero parallax ############################################## */
 
     // testimonial-slider

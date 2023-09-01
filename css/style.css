@@ -149,6 +149,7 @@ h6, .h6 {
     font-size: 20px;
   }
 }
+
 /* lady */
 @media (min-width: 1919px) {
   #l3 {
@@ -170,9 +171,40 @@ h6, .h6 {
     top: 140px;
   }
   #l3 {
-    margin-top: 75px;
+    margin-top: 85px;
   }
 }
+@media (max-width: 771px) {
+  .layer-bg {
+    top: 140px;
+  }
+  #l3 {
+    transform: translateX(40px); 
+  }
+  .socialitems {
+   display: flex;
+   flex-direction: row;
+   /* justify-content: space-between; */
+   /* margin-right: 40px; */
+  }
+  .socialitems > * {
+    margin-right: 15px;
+   }
+}
+@media (max-width: 676px) {
+  #l3 {
+    margin-top: 95px;
+    transform: translateX(50px); 
+  }
+}
+@media (max-width: 560px) {
+  #l3 {
+    margin-top: 120px;
+    /* transform: translateY(-300px);  */
+    transform: scale(1.4) translateX(30%); 
+  }
+}
+
 /* @media (max-width: 1280px) {
   #l3 {
     top: -80px;
@@ -730,6 +762,7 @@ background: rgba(255, 255, 255);
   z-index: 1;
   bottom: 0;
   left: 0;
+  /* background-image: url(/images/baner_lady.png); */
   /* top: -90px; */
 }
 
