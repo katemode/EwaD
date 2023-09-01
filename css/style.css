@@ -171,7 +171,7 @@ h6, .h6 {
     top: 140px;
   }
   #l3 {
-    margin-top: 85px;
+    margin-top: 185px;
   }
 }
 @media (max-width: 771px) {
@@ -193,13 +193,13 @@ h6, .h6 {
 }
 @media (max-width: 676px) {
   #l3 {
-    margin-top: 95px;
+    margin-top: 195px;
     transform: translateX(50px); 
   }
 }
 @media (max-width: 560px) {
   #l3 {
-    margin-top: 120px;
+    margin-top: 220px;
     /* transform: translateY(-300px);  */
     transform: scale(1.4) translateX(30%); 
   }
