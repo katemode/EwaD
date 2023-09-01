@@ -204,6 +204,30 @@ h6, .h6 {
     transform: scale(1.4) translateX(30%); 
   }
 }
+@media (max-width: 560px) {
+  .socialitems {
+    transform: translateY(-40%); 
+   }
+}
+@media (max-width: 450px) {
+  .socialitems {
+    transform: translateY(-90%); 
+   }
+   h7, .h7 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+}
+@media (max-width: 325px) {
+  .socialitems {
+    margin: 0;
+    padding: 0;
+    transform: translateY(-90%); 
+    text-align: center;
+   }
+}
 
 /* @media (max-width: 1280px) {
   #l3 {
