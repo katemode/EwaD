@@ -104,6 +104,7 @@ h3, .h3 {
 @media (max-width: 580px) {
   .text-style {
     column-count: 1;
+    /* padding: 20px; */
     /* margin: 20px; */
       } 
 }
@@ -198,6 +199,15 @@ h6, .h6 {
     transform: translateX(50px); 
   }
 }
+@media (max-width: 576px) {
+  p, .p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h7, .h7 {
+    transform: translateX(20px);
+  }
+}
 @media (max-width: 560px) {
   #l3 {
     margin-top: 220px;
@@ -209,6 +219,9 @@ h6, .h6 {
   .socialitems {
     transform: translateY(-40%); 
    }
+   h7, .h7 {
+    margin-bottom: 5%;
+  }
 }
 @media (max-width: 468px) {
   #l3 {
