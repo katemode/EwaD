@@ -85,7 +85,9 @@ const imgElement = document.querySelector('.layer-bg img');
 
 // Funkcja, która zmienia źródło obrazka na "baner_lady2.png" przy szerokości ekranu < 676px
 function changeImage() {
-    if (window.innerWidth < 560) {
+    if (window.innerWidth < 406) {
+        imgElement.src = "images/baner_lady390.png";
+    } else if (window.innerWidth < 560) {
         imgElement.src = "images/baner_lady560.png";
     } else if (window.innerWidth < 676) {
         imgElement.src = "images/baner_lady676.png";
