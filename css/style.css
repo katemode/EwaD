@@ -269,9 +269,13 @@ h6, .h6 {
     transform: translateY(140%); 
    }
 }
-@media (max-width: 351px) {
+@media (max-width: 361px) {
   .layer-bg {
     top: 140px;
+  }
+  #l3 {
+    margin-top: 310px;
+    transform: scale(1.9) translateX(30%); 
   }
   .hero-area h1, h3 {
     margin-left: -40px;
@@ -284,11 +288,6 @@ h6, .h6 {
 @media (max-width: 326px) {
   .layer-bg {
     top: 160px;
-  }
-  #l3 {
-    margin-top: 300px;
-    /* transform: translateY(-300px);  */
-    transform: scale(1.9) translateX(30%); 
   }
   .hero-area h1, h3 {
     margin-left: -50px;
