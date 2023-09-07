@@ -207,8 +207,8 @@ h6, .h6 {
 }
 @media (max-width: 576px) {
   p, .p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   h7, .h7 {
     transform: translateX(20px);
