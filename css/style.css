@@ -1108,16 +1108,22 @@ blockquote {
   line-height: 1.7;
 }
 
+/* SPECJALIZACJE */
 .content * {
   margin-bottom: 20px;
 }
-.content strong {
+.content strong {  
   font-family: "Playfair Display", serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
   display: inherit;
   line-height: 1.5;
+}
+
+.content img {
+  display: block;
+  box-shadow: 8px 8px 0px 0px rgba(66, 68, 90, 1);
 }
 
 .page-title-alt {
