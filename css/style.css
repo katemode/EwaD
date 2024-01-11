@@ -52,6 +52,8 @@ h1, h3{
   color: #000;
   font-family: 'birch';
   line-height: 1.2;
+  text-shadow: 3px 3px 0px 0px rgba(66, 68, 90, 1);
+  text-shadow: 8px 8px 30px 0px rgba(66, 68, 90, 0.5);
 }
 
 h2, h4, h5, h6, h7 {
@@ -264,8 +266,15 @@ h6, .h6 {
 }
 @media (max-width: 389px) {
   .layer-bg {
-    top: 110px;
+    top: 120px;
   }
+  button {
+    margin: 0 auto;
+  }
+  /* .navbar img{
+    margin-left: 0;
+    scale: 0.5;
+  } */
   h1, .h1 {
     margin: 0px;
   }
@@ -277,9 +286,9 @@ h6, .h6 {
     margin-bottom: -30px;
   }
   #l3 {
-    margin-top: 290px;
-    /* transform: translateY(-300px);  */
-    transform: scale(1.8) translateX(30%); 
+    display: none;
+    /* margin-top: 290px;
+    transform: scale(1.8) translateX(30%);  */
   }
   h7, .h7 {
     margin-top: 25%;
@@ -293,8 +302,9 @@ h6, .h6 {
     top: 140px;
   }
   #l3 {
-    margin-top: 310px;
-    transform: scale(1.9) translateX(30%); 
+    display: none;
+    /* margin-top: 310px;
+    transform: scale(1.9) translateX(30%);  */
   }
   .hero-area h1, h3 {
     margin-left: -40px;
