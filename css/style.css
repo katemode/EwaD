@@ -198,6 +198,7 @@ h6, .h6 {
   .socialitems {
    display: flex;
    flex-direction: row;
+   transform: translateY(-90%); 
    /* justify-content: space-between; */
    /* margin-right: 40px; */
   }
@@ -859,7 +860,6 @@ background: rgba(255, 255, 255);
   top: -10px;
   left: 60px;
 }
-
 
 .layer {
   position: absolute;
