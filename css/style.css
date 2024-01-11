@@ -167,13 +167,15 @@ h6, .h6 {
     top: 132px;
   }
   #l3 {
-    margin-top: 100px;
+    display: none;
+    /* margin-top: 100px; */
   }
 }
 @media (max-width: 1111px) {
 
   #l3 {
-    margin-top: 150px;
+    display: none;
+    /* margin-top: 150px; */
   }
 }
 @media (max-width: 991px) {
@@ -181,7 +183,8 @@ h6, .h6 {
     top: 140px;
   }
   #l3 {
-    margin-top: 170px;
+    display: none;
+    /* margin-top: 170px; */
   }
 }
 @media (max-width: 771px) {
@@ -189,7 +192,8 @@ h6, .h6 {
     top: 140px;
   }
   #l3 {
-    transform: translateX(40px); 
+    display: none;
+    /* transform: translateX(40px);  */
   }
   .socialitems {
    display: flex;
@@ -203,8 +207,9 @@ h6, .h6 {
 }
 @media (max-width: 676px) {
   #l3 {
-    margin-top: 195px;
-    transform: translateX(50px); 
+    display: none;
+    /* margin-top: 195px;
+    transform: translateX(50px);  */
   }
 }
 @media (max-width: 576px) {
@@ -218,9 +223,9 @@ h6, .h6 {
 }
 @media (max-width: 560px) {
   #l3 {
-    margin-top: 220px;
-    /* transform: translateY(-300px);  */
-    transform: scale(1.4) translateX(30%); 
+    display: none;
+    /* margin-top: 220px;
+    transform: scale(1.4) translateX(30%);  */
   }
 }
 @media (max-width: 560px) {
@@ -233,13 +238,16 @@ h6, .h6 {
 }
 @media (max-width: 468px) {
   #l3 {
-    margin-top: 240px;
-    /* transform: translateY(-300px);  */
-    transform: scale(1.5) translateX(40%); 
+    display: none;
+    /* margin-top: 240px;
+    transform: scale(1.5) translateX(40%);  */
   }
   h1, .h1 {
     font-size: 35px;
-    
+  }
+  h3, .h3 {
+    font-size: 14px;
+    letter-spacing: 3px;
   }
   .naglowek {
     margin-top: -20px;

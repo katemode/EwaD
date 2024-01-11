@@ -91,6 +91,8 @@ function changeImage() {
         imgElement.src = "images/baner_lady560.png";
     } else if (window.innerWidth < 676) {
         imgElement.src = "images/baner_lady676.png";
+    } else if (window.innerWidth < 1919) {
+        imgElement.src = "images/baner_lady1919.png";
     } else {
         imgElement.src = "images/baner_lady.png";
     }
