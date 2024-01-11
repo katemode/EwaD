@@ -266,7 +266,7 @@ h6, .h6 {
 }
 @media (max-width: 389px) {
   .layer-bg {
-    top: 120px;
+    top: 160px;
   }
   button {
     margin: 0 auto;
