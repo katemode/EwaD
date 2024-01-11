@@ -1141,7 +1141,7 @@ blockquote {
 
 .content img {
   display: block;
-  box-shadow: 8px 8px 0px 0px rgba(201, 174, 130, 1);
+  box-shadow: 8px 8px 0px 0px rgba(201, 174, 130, 0.5);
 }
 
 .page-title-alt {
