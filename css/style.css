@@ -144,13 +144,13 @@ h6, .h6 {
 @media (min-width: 1919px) {
   h7, .h7 {
     /* padding-top: 20%; */
-    margin-top: 55px;
+    margin-top: 75px;
   }
 }
 @media (min-width: 1730px) {
   h7, .h7 {
     /* padding-top: 20%; */
-    margin-top: 55px;
+    margin-top: 65px;
   }
   /* .text-style {
     margin-top: 55px;
