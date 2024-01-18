@@ -79,6 +79,10 @@ h2, .h2 {
   h2, .h2 {
     font-size: 25px;
   }
+  h3, .h3 {
+    font-size: 19px;
+    letter-spacing: 5.2px;
+  }
 }
 
 h3, .h3 {
@@ -141,7 +145,6 @@ h6, .h6 {
   h7, .h7 {
     /* padding-top: 20%; */
     margin-top: 15px;
-    font-size: 50px;
   }
   .text-style .paragraph {
     margin-top: 55px;
@@ -151,6 +154,7 @@ h6, .h6 {
   h7, .h7 {
     /* padding-top: 15%; */
   }
+  
 }
 
 @media (max-width: 991px) {
