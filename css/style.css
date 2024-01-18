@@ -146,9 +146,15 @@ h6, .h6 {
     /* padding-top: 20%; */
     margin-top: 15px;
   }
-  .text-style .paragraph {
+}
+@media (min-width: 1730px) {
+  h7, .h7 {
+    /* padding-top: 20%; */
     margin-top: 55px;
   }
+  /* .text-style {
+    margin-top: 55px;
+  } */
 }
 @media (max-width: 1320px) {
   h7, .h7 {
