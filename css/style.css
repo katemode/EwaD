@@ -167,6 +167,12 @@ h6, .h6 {
 }
 
 /* lady */
+@media (min-width: 2031px) {
+
+  #l3 {
+    display: none;
+  }
+}
 @media (min-width: 1919px) {
   #l3 {
     /* top: -80px;
