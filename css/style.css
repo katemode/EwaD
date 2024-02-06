@@ -180,7 +180,7 @@ h6, .h6 {
   #l3 {
     /* top: -80px;
     left: 60%; */
-    scale: 0.8;
+    scale: 1.2;
     margin-top: 30px;
     margin-left: 100px
   }
@@ -375,8 +375,9 @@ h6, .h6 {
 } */
 @media (max-width: 1920px) {
   #l3, img {
-    max-width: 100%; /* Obrazek nie będzie większy niż szerokość kontenera */
-    height: auto; /* Proporcjonalne dopasowanie wysokości */
+    max-width: 100%; 
+    height: auto; 
+
   }
 }
 
