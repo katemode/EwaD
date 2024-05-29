@@ -554,6 +554,11 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+.map-iframe {
+  display: block;
+  filter: grayscale(100);
+}
+
 /* overlay */
 .overlay {
   position: relative;
